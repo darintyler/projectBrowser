@@ -1,7 +1,7 @@
 General overview:
 	This application uses a backend PHP application to retrieve the most starred PHP projects from GitHub via the GitHub API, saves the data to a MySQL database, and then displays the data in a browsable list via a frontend ReactJS application. 
 	
-	Visit http://darintyler.com/portfolio/projectBrowsers to see a working example.
+	Visit http://darintyler.com/portfolio/projectBrowser to see a working example.
 	
 Backend description:
 	- All app requests are routed to "<backend_app_root>/index.php" via .htaccess, and then the appropriate action is taken depending on the request URL. The available endpoints are "<backend_app_path>/projects" to get stored listing of projects, and "<backend_app_path>/reload" to reload the application with fresh data.
